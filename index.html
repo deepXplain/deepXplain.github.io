@@ -3,10 +3,9 @@
 <body class=" sticky-bottom-footer">
 
     <!-- Header -->
-
-    <header>
-<!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top">
+<header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top">
     <div class="container">
       
       <!-- Navbar Toggle -->
@@ -16,44 +15,43 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
+      
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-
-<!-- About -->
-          <li class="nav-item active"> 
-             <a class="nav-link" href="#about"> 
-               Home 
-                <span class="sr-only">(current)</span>
-             </a> 
-           </li>    
-
           
-<!-- Program -->
+          <!-- About -->
+          <li class="nav-item active"> 
+            <a class="nav-link" href="#about"> 
+              Home
+              <span class="sr-only">(current)</span>
+            </a> 
+          </li>    
+
+          <!-- Program -->
           <li id="show-papers" class="nav-item"> 
             <a class="nav-link" target="_self" href="#program"> 
-               <font size="2"><b>Program</b></font> 
-             </a> 
+              <span class="navbar-link-text">Program</span> 
+            </a> 
           </li> 
-       
 
-<!-- Call For Papers -->
+          <!-- Call For Papers -->
           <li id="show-resources" class="nav-item"> 
             <a class="nav-link" target="_self" href="#cfp"> 
-              <font size="2"><b>Call For Papers</b></font> 
-           </a> 
+              <span class="navbar-link-text">Call For Papers</span> 
+            </a> 
           </li>    
-          
-<!-- Important Dates -->
-             <li id="show-teaching" class="nav-item"> 
-              <a class="nav-link" target="_self" href="#dates">
-                 <font size="2"><b>Important Dates</b></font> 
-               </a> 
-             </li>   
 
-<!-- Organization -->
+          <!-- Important Dates -->
+          <li id="show-teaching" class="nav-item"> 
+            <a class="nav-link" target="_self" href="#dates">
+              <span class="navbar-link-text">Important Dates</span> 
+            </a> 
+          </li>   
+
+          <!-- Organization -->
           <li id="show-service" class="nav-item">  
             <a class="nav-link" target="_self" href="#organization">  
-              <font size="2"><b>Organization</b></font>  
+              <span class="navbar-link-text">Organization</span>  
             </a>  
           </li>  
          
@@ -61,7 +59,16 @@
       </div>
     </div>
   </nav>
-   </head>
+</header>
+
+<!-- Adicione o seguinte CSS no seu arquivo de estilos -->
+<style>
+  .navbar-link-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+</style>
+
 <head>
     <base href=".">
     <link rel="shortcut icon" type="image/png" href="img/logo-deepxplain.png"/>
