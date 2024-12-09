@@ -9,13 +9,29 @@
 </head>
 <body class="sticky-bottom-footer">
 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Centered</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
   <!-- Header -->
   <header>
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top bg-light">
       <div class="container">
         <!-- Navbar Brand -->
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">Brand</a>
 
         <!-- Navbar Toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,49 +40,38 @@
 
         <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <!-- About -->
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">
-                Home <span class="sr-only">(current)</span>
-              </a>
-            </li>    
-
-            <!-- Program -->
+              <a class="nav-link" href="#about">Home <span class="sr-only">(current)</span></a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#program">Program</a>
-            </li> 
-
-            <!-- Call For Papers -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#cfp">Call For Papers</a>
-            </li>    
-
-            <!-- Important Dates -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#dates">Important Dates</a>
-            </li>   
-           
-            <!-- Organization -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#organization">Organization</a>
-            </li>  
-            
-            <!-- Proceedings -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#proceedings">Proceedings</a>
-            </li>  
-
-            <!-- Venue -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#venue">Venue</a>
-            </li>  
-            
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 
   <!-- Adicionar Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
